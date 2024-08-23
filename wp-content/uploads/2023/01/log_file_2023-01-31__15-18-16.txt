@@ -1,0 +1,45 @@
+
+---Downloaded files---
+The import files for: Hotel Vivanta were successfully downloaded!
+Initial max execution time = 3600
+Files info:
+Site URL = https://emrishouse.wpengine.com
+Data file = /nas/content/live/emrishouse/wp-content/uploads/2023/01/demo-content-import-file_2023-01-31__15-18-16.xml
+Widget file = /nas/content/live/emrishouse/wp-content/uploads/2023/01/demo-widgets-import-file_2023-01-31__15-18-16.json
+Customizer file = /nas/content/live/emrishouse/wp-content/uploads/2023/01/demo-customizer-import-file_2023-01-31__15-18-16.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Hotel Vivanta Footer Widget1 : 
+
+Text - About Us - Imported
+
+Hotel Vivanta Footer Widget2 : 
+
+Recent Posts - Recent Posts - Imported
+
+Hotel Vivanta Footer Widget3 : 
+
+Video - Watch ideo - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
