@@ -212,7 +212,7 @@ flexibility(document.documentElement);
 				<div class="elementor-element elementor-element-dd8e2ac elementor-align-center elementor-widget elementor-widget-button" data-id="dd8e2ac" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="#wpforms-552">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#contact">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Contact</span>
 					</span>
@@ -1312,19 +1312,25 @@ flexibility(document.documentElement);
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c4310db" data-id="c4310db" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-6fd21a5 elementor-widget elementor-widget-wpforms" data-id="6fd21a5" data-element_type="widget" data-widget_type="wpforms.default">
-				<div class="elementor-widget-container">
-			<div class="wpforms-container " id="wpforms-552"><form id="wpforms-form-552" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="552" method="post" enctype="multipart/form-data" action="/?simply_static_page=645" data-token="a103e81543ed9605266b41b57a01613a" data-token-time="1723648176">
-<noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
-<div class="wpforms-field-container">
-<div id="wpforms-552-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><input type="text" id="wpforms-552-field_0" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][0]" placeholder="Name" required></div>
-<div id="wpforms-552-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><input type="email" id="wpforms-552-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email" spellcheck="false" required></div>
-<div id="wpforms-552-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><textarea id="wpforms-552-field_2" class="wpforms-field-medium" name="wpforms[fields][2]" placeholder="Message"></textarea></div>
-</div>
-<!-- .wpforms-field-container --><div class="wpforms-submit-container">
-<input type="hidden" name="wpforms[id]" value="552"><input type="hidden" name="page_title" value="Home"><input type="hidden" name="page_url" value="/?simply_static_page=645"><input type="hidden" name="page_id" value="1448"><input type="hidden" name="wpforms[post_id]" value="1448"><button type="submit" name="wpforms[submit]" id="wpforms-submit-552" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button><img decoding="async" src="wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
-</div>
-</form></div>  <!-- .wpforms-container -->		</div>
-				</div>
+							<div class="elementor-widget-container">
+								<div class="wpforms-container " id="contact">
+									
+									<form id="my-form" action="https://formspree.io/f/mpwanqbb" method="POST">
+										<div class="wpforms-field-container" id="fs-frm-inputs">
+											<label>&nbsp;</label>
+											<input type="email" name="email" placeholder="Email">
+											<label>&nbsp;</label>
+											<textarea name="message" placeholder="Message"></textarea>
+										</div>
+										<div class="wpforms-submit-container">
+											<!-- <input type="submit" value="Send"> -->
+											<button id="my-form-button">Send</button>
+											<p id="my-form-status"></p>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
 					</div>
 		</div>
 					</div>
@@ -1344,7 +1350,7 @@ flexibility(document.documentElement);
 				<div class="elementor-element elementor-element-bbdc8f2 elementor-align-center elementor-widget elementor-widget-button" data-id="bbdc8f2" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="#wpforms-552">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#contact">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Get In Touch</span>
 					</span>
@@ -1463,5 +1469,38 @@ flexibility(document.documentElement);
 var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_minimum_price":"Amount entered is less than the required minimum.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_turnstile_fail_msg":"Cloudflare Turnstile verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","country":"","country_list_label":"Country list","wpforms_plugin_url":"\wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","error_updating_token":"Error updating token. Please try again or contact support if the issue persists.","network_error":"Network error or server is unreachable. Check your connection or try again later.","token_cache_lifetime":"86400","hn_data":[0]}
 /* ]]> */
 </script>
+
+<script>
+	var form = document.getElementById("my-form");
+	
+	async function handleSubmit(event) {
+	  event.preventDefault();
+	  var status = document.getElementById("my-form-status");
+	  var data = new FormData(event.target);
+	  fetch(event.target.action, {
+		method: form.method,
+		body: data,
+		headers: {
+			'Accept': 'application/json'
+		}
+	  }).then(response => {
+		if (response.ok) {
+		  status.innerHTML = "Thanks for your submission!";
+		  form.reset()
+		} else {
+		  response.json().then(data => {
+			if (Object.hasOwn(data, 'errors')) {
+			  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+			} else {
+			  status.innerHTML = "Oops! There was a problem submitting your form"
+			}
+		  })
+		}
+	  }).catch(error => {
+		status.innerHTML = "Oops! There was a problem submitting your form"
+	  });
+	}
+	form.addEventListener("submit", handleSubmit)
+  </script>
 	</body>
 </html>
